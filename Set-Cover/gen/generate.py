@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-n', default=10, type = int,
                     help = "Number of element in the universe set. (Default = 10)")
 parser.add_argument('-k', default=4, type=int,
-                    help = "The number of subsets (Default=3)")
+                    help = "The number of subsets (Default=4)")
 args = parser.parse_args()
 num_elements = args.n
 elements = list(range(num_elements))
